@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/51abc1eb35.js" crossorigin="anonymous"></script>
+
+    </script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo1.png" class="logo">
+            <ul id="slidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>
+                UI/UX Design
+            </p>
+            <h1>Hi,I'm <span>Karisni</span><br> From India
+            </h1>
+        </div>
+    </div>
+   </div>
+   <!---------------about----------------->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+        <div class="about-col-1">
+            <img src="image.png">
+        </div>
+        <div class="about-col-2">
+        <h1 class="sub">About Me</h1>
+        <p>I’m a passionate Computer Science and Engineering (CSE) student at Kongu Engineering College, currently in my 2nd year. I have a strong interest in web development, programming, and problem-solving.</p>
+        <div class="titles">
+         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>   
+         <p class="tab-links" onclick="opentab('experience')">Experience
+         </p>   
+         <p class="tab-links" onclick="opentab('education')">Education</p>   
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+        <ul>
+            <li><span>UI?UX</span><br>Designing Web App interfaces</li>
+                <li><span>Web development</span><br>Web App Development</li>
+                <li><span>Data Structures</span><br>Proficient in arrays,linked lists,stack,queue etc...</li>
+        </ul>
+    </div>
+    <div class="tab-contents" id="experience">
+        <ul>
+            <li><span>2024</span><br>UI/UX Design Training at kongu engineering college, focusing on wireframing and prototyping.</li>
+                <li><span>Hackathon Participation</span><br>Participated in coding competitions and hackathons, solving real-world problems.</li>
+                <li><span>Mini Projects</span><br>Created bike consultation and statute suggest websites</li>
+        </ul>
+    </div>
+    <div class="tab-contents" id="education">
+        <ul>
+            <li><span>College</span><br>Kongu Engineering College, India</li>
+                <li><span>Current GPA</span><br>8.15</li>
+                <li><span>School</span><br>Infant Jesus Matric Higher Secondary School</li>
+                <li><span>HSC percentage</span><br>88%</li>
+        </ul>
+    </div>
+</div>
+   </div>
+</div>
+<!-----------------services---------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+             <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web development</h2>
+            <p>I create visually stunning, user-friendly, and responsive websites tailored to the business needs. Our designs focus on seamless navigation, engaging aesthetics, and optimal performance to enhance user experience.We build fast, scalable, and secure websites using the latest technologies. Our development approach ensures seamless performance and a smooth user experience.</p>
+       <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>We craft intuitive and engaging user interfaces that enhance user experiences. Our design process prioritizes accessibility, aesthetics, and user behavior analysis.</p>
+       <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App design</h2>
+            <p>Our team creates mobile-friendly and highly interactive app designs. We focus on usability, performance, and a visually appealing experience to keep users engaged.</p>
+       <a href="#">Learn more</a>
+        </div>
+    </div>
+</div>
+</div>
+<!------------------------------------portfolio---------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work2.jpg" height="210px">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you yo the talented people around the world.Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work1.png" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you yo the talented people around the world.Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work3.jpeg">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you yo the talented people around the world.Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!--------------contact------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+<h1 class="sub-title">Contact Me</h1>
+<p><i class="fa-solid fa-paper-plane"></i>karisnid.23cse@kongu.edu</p>
+<p><i class="fa-solid fa-phone"></i>9876543211</p>
+<div class="social-icons">
+    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+    <a href=""><i class="fa-brands fa-instagram"></i></a>
+    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+</div>
+<a href="Karisni_CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                   <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type ="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" id="" cols="30" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                   </form>
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Karisni.Made <i class="fa-solid fa-heart"></i>by a Engineering student</p>
+    </div>
+</div>
+<script>
+    let tabLinks = document.querySelectorAll(".tab-links");
+let tabContents = document.querySelectorAll(".tab-contents");
+
+tabLinks.forEach((tab, index) => {
+    tab.addEventListener("click", () => {
+        tabLinks.forEach((t) => t.classList.remove("active-link"));
+        tabContents.forEach((content) => content.classList.remove("active-tab"));
+
+        tab.classList.add("active-link");
+        tabContents[index].classList.add("active-tab");
+    });
+});
+
+
+</script>
+<script>
+    function openmenu() {
+    document.getElementById("slidemenu").style.right = "0";
+}
+
+function closemenu() {
+    document.getElementById("slidemenu").style.right = "-200px";
+}
+
+</script>
+</body>
+</html>
